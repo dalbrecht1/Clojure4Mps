@@ -11,6 +11,7 @@
         <child id="1227698124432562215" name="forms" index="2nfJ3n" />
       </concept>
       <concept id="6850055591775388153" name="Clojure.structure.NilLiteral" flags="ng" index="woKyX" />
+      <concept id="6850055591776224178" name="Clojure.structure.Symbol" flags="ng" index="w$4FQ" />
       <concept id="7954939722265394655" name="Clojure.structure.Map" flags="ng" index="2H869o">
         <child id="7954939722265394656" name="elements" index="2H869B" />
       </concept>
@@ -42,7 +43,7 @@
     </language>
   </registry>
   <node concept="2nfODt" id="149Ef26dICQ">
-    <property role="TrG5h" value="test" />
+    <property role="TrG5h" value="literals_collections" />
     <node concept="2Hn3F_" id="6T_BSv3e_MG" role="2nfJ3n">
       <property role="2Hn3F$" value="4542" />
     </node>
@@ -199,6 +200,59 @@
           <property role="2HnWde" value="no" />
         </node>
       </node>
+    </node>
+    <node concept="w$4FQ" id="5WgikhZyTFW" role="2nfJ3n">
+      <property role="TrG5h" value="Text" />
+    </node>
+    <node concept="2H9jWj" id="5WgikhZyTIb" role="2nfJ3n">
+      <node concept="w$4FQ" id="5WgikhZyTJk" role="2H9jWi">
+        <property role="TrG5h" value="test" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTJu" role="2H9jWi">
+        <property role="TrG5h" value="test" />
+      </node>
+    </node>
+    <node concept="2Hmom$" id="5WgikhZyTJy" role="2nfJ3n" />
+    <node concept="2H9jWj" id="5WgikhZyTLS" role="2nfJ3n">
+      <node concept="w$4FQ" id="5WgikhZyTN6" role="2H9jWi">
+        <property role="TrG5h" value="you" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTNg" role="2H9jWi">
+        <property role="TrG5h" value="will" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTNK" role="2H9jWi">
+        <property role="TrG5h" value="have" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTNZ" role="2H9jWi">
+        <property role="TrG5h" value="to" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTOp" role="2H9jWi">
+        <property role="TrG5h" value="press" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTOF" role="2H9jWi">
+        <property role="TrG5h" value="enter" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTOZ" role="2H9jWi">
+        <property role="TrG5h" value="to" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTPl" role="2H9jWi">
+        <property role="TrG5h" value="create" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTPH" role="2H9jWi">
+        <property role="TrG5h" value="new" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTQ6" role="2H9jWi">
+        <property role="TrG5h" value="list" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTQy" role="2H9jWi">
+        <property role="TrG5h" value="elements" />
+      </node>
+      <node concept="w$4FQ" id="5WgikhZyTR0" role="2H9jWi">
+        <property role="TrG5h" value=":(" />
+      </node>
+    </node>
+    <node concept="w$4FQ" id="5WgikhZweKm" role="2nfJ3n">
+      <property role="TrG5h" value="Name" />
     </node>
   </node>
 </model>

@@ -204,5 +204,15 @@
     <property role="R4oN_" value="nil literal" />
     <ref role="1TJDcQ" node="6T_BSv3dWCc" resolve="Literal" />
   </node>
+  <node concept="1TIwiD" id="5WgikhZw0eM">
+    <property role="EcuMT" value="6850055591776224178" />
+    <property role="3GE5qa" value="literals" />
+    <property role="TrG5h" value="Symbol" />
+    <property role="34LRSv" value="symbol" />
+    <ref role="1TJDcQ" node="6T_BSv3dWCc" resolve="Literal" />
+    <node concept="PrWs8" id="5WgikhZw0eP" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 
