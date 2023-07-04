@@ -137,8 +137,9 @@
   <node concept="1TIwiD" id="6T_BSv3ga2k">
     <property role="EcuMT" value="7954939722265043092" />
     <property role="TrG5h" value="List" />
-    <property role="34LRSv" value="list" />
+    <property role="34LRSv" value="'(" />
     <property role="3GE5qa" value="collections" />
+    <property role="R4oN_" value="list" />
     <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Collection" />
     <node concept="1TJgyj" id="6T_BSv3ga2l" role="1TKVEi">
       <property role="IQ2ns" value="7954939722265043093" />
@@ -151,8 +152,9 @@
   <node concept="1TIwiD" id="6T_BSv3hvRv">
     <property role="EcuMT" value="7954939722265394655" />
     <property role="TrG5h" value="Map" />
-    <property role="34LRSv" value="map" />
+    <property role="34LRSv" value="{" />
     <property role="3GE5qa" value="collections" />
+    <property role="R4oN_" value="map" />
     <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Collection" />
     <node concept="1TJgyj" id="6T_BSv3hvRw" role="1TKVEi">
       <property role="IQ2ns" value="7954939722265394656" />
@@ -185,8 +187,9 @@
   <node concept="1TIwiD" id="6T_BSv3jCmh">
     <property role="EcuMT" value="7954939722265953681" />
     <property role="TrG5h" value="Set" />
-    <property role="34LRSv" value="set" />
+    <property role="34LRSv" value="#{" />
     <property role="3GE5qa" value="collections" />
+    <property role="R4oN_" value="set" />
     <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Collection" />
     <node concept="1TJgyj" id="6T_BSv3jCmi" role="1TKVEi">
       <property role="IQ2ns" value="7954939722265953682" />
@@ -218,7 +221,8 @@
     <property role="EcuMT" value="3456284285274870024" />
     <property role="3GE5qa" value="collections" />
     <property role="TrG5h" value="Vector" />
-    <property role="34LRSv" value="vector" />
+    <property role="34LRSv" value="[" />
+    <property role="R4oN_" value="vector" />
     <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Collection" />
     <node concept="1TJgyj" id="2ZRc3Va$H49" role="1TKVEi">
       <property role="IQ2ns" value="3456284285274870025" />
