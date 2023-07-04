@@ -18,7 +18,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -62,6 +64,9 @@
       <property role="20kJfa" value="forms" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="149Ef26dPwA" resolve="Form" />
+    </node>
+    <node concept="PrWs8" id="1WRzcimlmu8" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="PlHQZ" id="149Ef26dPwA">
@@ -229,6 +234,97 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="elements" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="149Ef26dPwA" resolve="Form" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1WRzcimlmt$">
+    <property role="EcuMT" value="2249421314858510180" />
+    <property role="TrG5h" value="Reference" />
+    <property role="3GE5qa" value="references" />
+    <property role="R4oN_" value="reference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1WRzcimlmt_" role="1TKVEi">
+      <property role="IQ2ns" value="2249421314858510181" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1WRzcimlmtE" resolve="ReferenceTarget" />
+    </node>
+    <node concept="PrWs8" id="1WRzcimlmtK" role="PzmwI">
+      <ref role="PrY4T" node="149Ef26dPwA" resolve="Form" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1WRzcimlmtE">
+    <property role="TrG5h" value="ReferenceTarget" />
+    <property role="EcuMT" value="2249421314858510183" />
+    <property role="3GE5qa" value="references" />
+    <node concept="PrWs8" id="1WRzcimlmtC" role="PrDN$">
+      <ref role="PrY4T" node="149Ef26dPwA" resolve="Form" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1WRzcimloGE">
+    <property role="EcuMT" value="2249421314858519338" />
+    <property role="3GE5qa" value="references" />
+    <property role="TrG5h" value="Let" />
+    <property role="34LRSv" value="let" />
+    <property role="R4oN_" value="let scoping" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1WRzcimloGF" role="PzmwI">
+      <ref role="PrY4T" node="149Ef26dPwA" resolve="Form" />
+    </node>
+    <node concept="PrWs8" id="1WRzcimloGI" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+    <node concept="1TJgyj" id="1WRzcimloGL" role="1TKVEi">
+      <property role="IQ2ns" value="2249421314858519345" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="bindings" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1WRzcimmuYC" resolve="ReferenceTargetVector" />
+    </node>
+    <node concept="1TJgyj" id="1WRzcimloGN" role="1TKVEi">
+      <property role="IQ2ns" value="2249421314858519347" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="body" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="149Ef26dPwA" resolve="Form" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1WRzcimmuYC">
+    <property role="EcuMT" value="2249421314858807208" />
+    <property role="3GE5qa" value="references" />
+    <property role="TrG5h" value="ReferenceTargetVector" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1WRzcimmuYD" role="PzmwI">
+      <ref role="PrY4T" node="149Ef26dPwA" resolve="Form" />
+    </node>
+    <node concept="1TJgyj" id="1WRzcimmuZ9" role="1TKVEi">
+      <property role="IQ2ns" value="2249421314858807241" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="elements" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1WRzcimmNde" resolve="LetReferenceTarget" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1WRzcimmNde">
+    <property role="EcuMT" value="2249421314858890062" />
+    <property role="3GE5qa" value="references" />
+    <property role="TrG5h" value="LetReferenceTarget" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1WRzcimmNdf" role="PzmwI">
+      <ref role="PrY4T" node="1WRzcimlmtE" resolve="ReferenceTarget" />
+    </node>
+    <node concept="1TJgyj" id="1WRzcimmP$x" role="1TKVEi">
+      <property role="IQ2ns" value="2249421314858899745" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="key" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5WgikhZw0eM" resolve="Symbol" />
+    </node>
+    <node concept="1TJgyj" id="1WRzcimmP$z" role="1TKVEi">
+      <property role="IQ2ns" value="2249421314858899747" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="149Ef26dPwA" resolve="Form" />
     </node>
   </node>
