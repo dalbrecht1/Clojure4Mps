@@ -46,6 +46,8 @@
         <child id="1237305790512" name="value" index="lb14g" />
       </concept>
       <concept id="1237305491868" name="jetbrains.mps.lang.textGen.structure.CollectionAppendPart" flags="ng" index="l9S2W">
+        <property id="1237306003719" name="separator" index="lbP0B" />
+        <property id="1237983969951" name="withSeparator" index="XA4eZ" />
         <child id="1237305945551" name="list" index="lbANJ" />
       </concept>
       <concept id="1237305557638" name="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart" flags="ng" index="la8eA">
@@ -107,6 +109,8 @@
       <node concept="3clFbS" id="3gy5KiBjz2f" role="2VODD2">
         <node concept="lc7rE" id="3gy5KiBjBPd" role="3cqZAp">
           <node concept="l9S2W" id="3gy5KiBjBPx" role="lcghm">
+            <property role="XA4eZ" value="true" />
+            <property role="lbP0B" value="\n" />
             <node concept="2OqwBi" id="3gy5KiBjBY5" role="lbANJ">
               <node concept="117lpO" id="3gy5KiBjBPR" role="2Oq$k0" />
               <node concept="3Tsc0h" id="3gy5KiBjCce" role="2OqNvi">
