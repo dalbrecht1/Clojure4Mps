@@ -10,6 +10,16 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="3348158742936976480" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ng" index="25R33">
+        <property id="1421157252384165432" name="memberId" index="3tVfz5" />
+        <property id="672037151186491528" name="presentation" index="1L1pqM" />
+      </concept>
+      <concept id="3348158742936976479" name="jetbrains.mps.lang.structure.structure.EnumerationDeclaration" flags="ng" index="25R3W">
+        <child id="3348158742936976577" name="members" index="25R1y" />
+      </concept>
+      <concept id="1082978164218" name="jetbrains.mps.lang.structure.structure.DataTypeDeclaration" flags="ng" index="AxPO6">
+        <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -334,6 +344,83 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1QYEqI9zQLZ" role="PzmwI">
       <ref role="PrY4T" node="1WRzcimlmtE" resolve="ReferenceTarget" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1QYEqI9IhwS">
+    <property role="EcuMT" value="2143337026890045496" />
+    <property role="TrG5h" value="Apply" />
+    <property role="3GE5qa" value="functions" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1QYEqI9IhAJ" role="PzmwI">
+      <ref role="PrY4T" node="149Ef26dPwA" resolve="Form" />
+    </node>
+    <node concept="1TJgyj" id="1QYEqI9IhAL" role="1TKVEi">
+      <property role="IQ2ns" value="2143337026890045873" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="op" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="149Ef26dPwA" resolve="Form" />
+    </node>
+    <node concept="1TJgyj" id="1QYEqI9IhAN" role="1TKVEi">
+      <property role="IQ2ns" value="2143337026890045875" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="args" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="149Ef26dPwA" resolve="Form" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3gy5KiBfF8Q">
+    <property role="3F6X1D" value="3756590347933626934" />
+    <property role="3GE5qa" value="functions" />
+    <property role="TrG5h" value="stdlib" />
+    <node concept="25R33" id="3gy5KiBfF8R" role="25R1y">
+      <property role="3tVfz5" value="3756590347933626935" />
+      <property role="TrG5h" value="plus" />
+      <property role="1L1pqM" value="+" />
+    </node>
+    <node concept="25R33" id="3gy5KiBfFlU" role="25R1y">
+      <property role="3tVfz5" value="3756590347933627770" />
+      <property role="TrG5h" value="times" />
+      <property role="1L1pqM" value="*" />
+    </node>
+    <node concept="25R33" id="3gy5KiBfFlX" role="25R1y">
+      <property role="3tVfz5" value="3756590347933627773" />
+      <property role="TrG5h" value="minus" />
+      <property role="1L1pqM" value="-" />
+    </node>
+    <node concept="25R33" id="3gy5KiBfFm1" role="25R1y">
+      <property role="3tVfz5" value="3756590347933627777" />
+      <property role="TrG5h" value="divide" />
+      <property role="1L1pqM" value="/" />
+    </node>
+    <node concept="25R33" id="3gy5KiBfFm6" role="25R1y">
+      <property role="3tVfz5" value="3756590347933627782" />
+      <property role="TrG5h" value="modulo" />
+      <property role="1L1pqM" value="mod" />
+    </node>
+    <node concept="25R33" id="3gy5KiBfFmc" role="25R1y">
+      <property role="3tVfz5" value="3756590347933627788" />
+      <property role="TrG5h" value="max" />
+      <property role="1L1pqM" value="max" />
+    </node>
+    <node concept="25R33" id="3gy5KiBfFmj" role="25R1y">
+      <property role="3tVfz5" value="3756590347933627795" />
+      <property role="TrG5h" value="min" />
+      <property role="1L1pqM" value="min" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3gy5KiBfJM2">
+    <property role="EcuMT" value="3756590347933645954" />
+    <property role="3GE5qa" value="functions" />
+    <property role="TrG5h" value="StdOp" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3gy5KiBfJZ1" role="PzmwI">
+      <ref role="PrY4T" node="149Ef26dPwA" resolve="Form" />
+    </node>
+    <node concept="1TJgyi" id="3gy5KiBfJZ3" role="1TKVEl">
+      <property role="IQ2nx" value="3756590347933646787" />
+      <property role="TrG5h" value="op" />
+      <ref role="AX2Wp" node="3gy5KiBfF8Q" resolve="stdlib" />
     </node>
   </node>
 </model>
