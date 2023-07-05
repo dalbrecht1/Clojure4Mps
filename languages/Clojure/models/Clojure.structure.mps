@@ -250,9 +250,6 @@
     <property role="TrG5h" value="ReferenceTarget" />
     <property role="EcuMT" value="2249421314858510183" />
     <property role="3GE5qa" value="references" />
-    <node concept="PrWs8" id="1WRzcimlmtC" role="PrDN$">
-      <ref role="PrY4T" node="149Ef26dPwA" resolve="Form" />
-    </node>
     <node concept="PrWs8" id="5iI9v7l$s6$" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -274,30 +271,14 @@
       <property role="IQ2ns" value="2249421314858519345" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="bindings" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1WRzcimmuYC" resolve="ReferenceTargetVector" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="1WRzcimmuYC">
-    <property role="EcuMT" value="2249421314858807208" />
-    <property role="3GE5qa" value="references" />
-    <property role="TrG5h" value="ReferenceTargetVector" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="1WRzcimmuYD" role="PzmwI">
-      <ref role="PrY4T" node="149Ef26dPwA" resolve="Form" />
-    </node>
-    <node concept="1TJgyj" id="1WRzcimmuZ9" role="1TKVEi">
-      <property role="IQ2ns" value="2249421314858807241" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="elements" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1WRzcimmNde" resolve="LetReferenceTarget" />
+      <ref role="20lvS9" node="1WRzcimmNde" resolve="LetBinding" />
     </node>
   </node>
   <node concept="1TIwiD" id="1WRzcimmNde">
     <property role="EcuMT" value="2249421314858890062" />
     <property role="3GE5qa" value="references" />
-    <property role="TrG5h" value="LetReferenceTarget" />
+    <property role="TrG5h" value="LetBinding" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1WRzcimmNdf" role="PzmwI">
       <ref role="PrY4T" node="1WRzcimlmtE" resolve="ReferenceTarget" />
