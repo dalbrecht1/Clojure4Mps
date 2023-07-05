@@ -999,7 +999,7 @@
         <node concept="l2Vlx" id="1QYEqI9_aFg" role="2czzBx" />
       </node>
       <node concept="3F0ifn" id="1QYEqI9$Ky1" role="3EZMnx">
-        <property role="3F0ifm" value="] (" />
+        <property role="3F0ifm" value="]" />
         <node concept="ljvvj" id="1QYEqI9_aEX" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1028,7 +1028,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="1QYEqI9$Kyd" role="3EZMnx">
-        <property role="3F0ifm" value="))" />
+        <property role="3F0ifm" value=")" />
         <node concept="pVoyu" id="1QYEqI9$Kym" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
