@@ -134,7 +134,7 @@
   </node>
   <node concept="1TIwiD" id="6T_BSv3ga2h">
     <property role="EcuMT" value="7954939722265043089" />
-    <property role="TrG5h" value="Collection" />
+    <property role="TrG5h" value="Sequence" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="collections" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -148,7 +148,7 @@
     <property role="34LRSv" value="'(" />
     <property role="3GE5qa" value="collections" />
     <property role="R4oN_" value="list" />
-    <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Collection" />
+    <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Sequence" />
     <node concept="1TJgyj" id="6T_BSv3ga2l" role="1TKVEi">
       <property role="IQ2ns" value="7954939722265043093" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -163,7 +163,7 @@
     <property role="34LRSv" value="{" />
     <property role="3GE5qa" value="collections" />
     <property role="R4oN_" value="map" />
-    <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Collection" />
+    <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Sequence" />
     <node concept="1TJgyj" id="6T_BSv3hvRw" role="1TKVEi">
       <property role="IQ2ns" value="7954939722265394656" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -198,7 +198,7 @@
     <property role="34LRSv" value="#{" />
     <property role="3GE5qa" value="collections" />
     <property role="R4oN_" value="set" />
-    <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Collection" />
+    <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Sequence" />
     <node concept="1TJgyj" id="6T_BSv3jCmi" role="1TKVEi">
       <property role="IQ2ns" value="7954939722265953682" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -231,7 +231,7 @@
     <property role="TrG5h" value="Vector" />
     <property role="34LRSv" value="[" />
     <property role="R4oN_" value="vector" />
-    <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Collection" />
+    <ref role="1TJDcQ" node="6T_BSv3ga2h" resolve="Sequence" />
     <node concept="1TJgyj" id="2ZRc3Va$H49" role="1TKVEi">
       <property role="IQ2ns" value="3456284285274870025" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -421,6 +421,37 @@
       <property role="IQ2nx" value="3756590347933646787" />
       <property role="TrG5h" value="op" />
       <ref role="AX2Wp" node="3gy5KiBfF8Q" resolve="stdlib" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="55eTs80cid8">
+    <property role="EcuMT" value="5858872786645230408" />
+    <property role="TrG5h" value="Repl" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="55eTs80ciqa" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="55eTs80ciqc" role="PzmwI">
+      <ref role="PrY4T" node="1QYEqI9x9$k" resolve="ReferenceScope" />
+    </node>
+    <node concept="1TJgyj" id="55eTs80dgrw" role="1TKVEi">
+      <property role="IQ2ns" value="5858872786645485280" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lines" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="55eTs80dgev" resolve="ReplLine" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="55eTs80dgev">
+    <property role="EcuMT" value="5858872786645484447" />
+    <property role="TrG5h" value="ReplLine" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="55eTs80dgru" role="1TKVEi">
+      <property role="IQ2ns" value="5858872786645485278" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="form" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="149Ef26dPwA" resolve="Form" />
     </node>
   </node>
 </model>
