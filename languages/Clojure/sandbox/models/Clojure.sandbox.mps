@@ -1645,6 +1645,67 @@
         </node>
       </node>
     </node>
+    <node concept="1huYpt" id="6rswArRdZWF" role="1huYcy">
+      <node concept="2Hmom$" id="6rswArRdZWG" role="1huYcs" />
+    </node>
+    <node concept="1huYpt" id="6rswArRdZXV" role="1huYcy">
+      <node concept="29owvI" id="6rswArRdZZn" role="1huYcs">
+        <node concept="29rbYa" id="6rswArRdZZw" role="29owvP">
+          <property role="TrG5h" value="f" />
+          <node concept="2keGvS" id="6rswArRdZZE" role="29rdnB" />
+        </node>
+        <node concept="2k1V6j" id="6rswArRe07f" role="2keTEq">
+          <node concept="29oIIw" id="6rswArRe07m" role="2k1V0q">
+            <ref role="29oIIx" node="6rswArRdZZw" resolve="f" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1huYpt" id="6rswArRfe8_" role="1huYcy">
+      <node concept="2Hmom$" id="6rswArRfe8A" role="1huYcs" />
+    </node>
+    <node concept="1huYpt" id="6rswArRffmY" role="1huYcy">
+      <node concept="2HnWdf" id="6rswArRffoD" role="1huYcs">
+        <property role="2HnWde" value="This should eval to 4! Don't know yet, why it doesn't :(" />
+      </node>
+    </node>
+    <node concept="1huYpt" id="6rswArRfe9X" role="1huYcy">
+      <node concept="29owvI" id="6rswArRfeb$" role="1huYcs">
+        <node concept="29rbYa" id="6rswArRfebG" role="29owvP">
+          <property role="TrG5h" value="x" />
+          <node concept="2Hn3F_" id="6rswArRfebQ" role="29rdnB">
+            <property role="2Hn3F$" value="3" />
+          </node>
+        </node>
+        <node concept="2k1V6j" id="6rswArRfebX" role="2keTEq">
+          <node concept="2k1V6j" id="6rswArRfec3" role="2k1V0q">
+            <node concept="29owvI" id="6rswArRfecc" role="2k1V0q">
+              <node concept="29rbYa" id="6rswArRfeck" role="29owvP">
+                <property role="TrG5h" value="x" />
+                <node concept="2Hn3F_" id="6rswArRfecv" role="29rdnB">
+                  <property role="2Hn3F$" value="4" />
+                </node>
+              </node>
+              <node concept="2keGvS" id="6rswArRfecC" role="2keTEq">
+                <node concept="29owvI" id="6rswArRfecP" role="2keTEq">
+                  <node concept="29rbYa" id="6rswArRfed3" role="29owvP">
+                    <property role="TrG5h" value="x" />
+                    <node concept="29oIIw" id="6rswArRfefd" role="29rdnB">
+                      <ref role="29oIIx" node="6rswArRfeck" resolve="x" />
+                    </node>
+                  </node>
+                  <node concept="2keGvS" id="6rswArRfedH" role="2keTEq">
+                    <node concept="29oIIw" id="6rswArRfeem" role="2keTEq">
+                      <ref role="29oIIx" node="6rswArRfed3" resolve="x" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
