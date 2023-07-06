@@ -401,27 +401,34 @@
     <node concept="25R33" id="3gy5KiBfFmc" role="25R1y">
       <property role="3tVfz5" value="3756590347933627788" />
       <property role="TrG5h" value="max" />
-      <property role="1L1pqM" value="max" />
     </node>
     <node concept="25R33" id="3gy5KiBfFmj" role="25R1y">
       <property role="3tVfz5" value="3756590347933627795" />
       <property role="TrG5h" value="min" />
-      <property role="1L1pqM" value="min" />
     </node>
     <node concept="25R33" id="6rswArQzeB7" role="25R1y">
       <property role="3tVfz5" value="7411942465479698887" />
       <property role="TrG5h" value="if" />
-      <property role="1L1pqM" value="if" />
     </node>
     <node concept="25R33" id="6rswArQB3DU" role="25R1y">
       <property role="3tVfz5" value="7411942465480702586" />
       <property role="TrG5h" value="first" />
-      <property role="1L1pqM" value="first" />
     </node>
     <node concept="25R33" id="6rswArQECaz" role="25R1y">
       <property role="3tVfz5" value="7411942465481638563" />
       <property role="TrG5h" value="when" />
-      <property role="1L1pqM" value="when" />
+    </node>
+    <node concept="25R33" id="6rswArR03in" role="25R1y">
+      <property role="3tVfz5" value="7411942465487254679" />
+      <property role="TrG5h" value="nth" />
+    </node>
+    <node concept="25R33" id="6rswArR5bcN" role="25R1y">
+      <property role="3tVfz5" value="7411942465488597811" />
+      <property role="TrG5h" value="count" />
+    </node>
+    <node concept="25R33" id="6rswArR8LfQ" role="25R1y">
+      <property role="3tVfz5" value="7411942465489540086" />
+      <property role="TrG5h" value="map" />
     </node>
   </node>
   <node concept="1TIwiD" id="3gy5KiBfJM2">

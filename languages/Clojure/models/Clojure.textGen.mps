@@ -41,11 +41,12 @@
     <language id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen">
       <concept id="45307784116571022" name="jetbrains.mps.lang.textGen.structure.FilenameFunction" flags="ig" index="29tfMY" />
       <concept id="8931911391946696733" name="jetbrains.mps.lang.textGen.structure.ExtensionDeclaration" flags="in" index="9MYSb" />
-      <concept id="1237305208784" name="jetbrains.mps.lang.textGen.structure.NewLineAppendPart" flags="ng" index="l8MVK" />
       <concept id="1237305334312" name="jetbrains.mps.lang.textGen.structure.NodeAppendPart" flags="ng" index="l9hG8">
         <child id="1237305790512" name="value" index="lb14g" />
       </concept>
       <concept id="1237305491868" name="jetbrains.mps.lang.textGen.structure.CollectionAppendPart" flags="ng" index="l9S2W">
+        <property id="1237306003719" name="separator" index="lbP0B" />
+        <property id="1237983969951" name="withSeparator" index="XA4eZ" />
         <child id="1237305945551" name="list" index="lbANJ" />
       </concept>
       <concept id="1237305557638" name="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart" flags="ng" index="la8eA">
@@ -107,6 +108,8 @@
       <node concept="3clFbS" id="3gy5KiBjz2f" role="2VODD2">
         <node concept="lc7rE" id="3gy5KiBjBPd" role="3cqZAp">
           <node concept="l9S2W" id="3gy5KiBjBPx" role="lcghm">
+            <property role="XA4eZ" value="true" />
+            <property role="lbP0B" value="\n" />
             <node concept="2OqwBi" id="3gy5KiBjBY5" role="lbANJ">
               <node concept="117lpO" id="3gy5KiBjBPR" role="2Oq$k0" />
               <node concept="3Tsc0h" id="3gy5KiBjCce" role="2OqNvi">
@@ -121,11 +124,7 @@
   <node concept="WtQ9Q" id="55eTs80anBa">
     <ref role="WuzLi" to="909g:6T_BSv3f1Cz" resolve="EmptyForm" />
     <node concept="11bSqf" id="55eTs80anBb" role="11c4hB">
-      <node concept="3clFbS" id="55eTs80anBc" role="2VODD2">
-        <node concept="lc7rE" id="55eTs80ar5V" role="3cqZAp">
-          <node concept="l8MVK" id="55eTs80ar6f" role="lcghm" />
-        </node>
-      </node>
+      <node concept="3clFbS" id="55eTs80anBc" role="2VODD2" />
     </node>
   </node>
   <node concept="WtQ9Q" id="55eTs80ao2n">
