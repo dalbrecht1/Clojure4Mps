@@ -1493,8 +1493,8 @@
                 <node concept="29owvI" id="28abrYJS4nT" role="2keTEq">
                   <node concept="29rbYa" id="28abrYJS4of" role="29owvP">
                     <property role="TrG5h" value="x" />
-                    <node concept="2Hn3F_" id="28abrYJS4SG" role="29rdnB">
-                      <property role="2Hn3F$" value="5" />
+                    <node concept="29oIIw" id="28abrYJUsJK" role="29rdnB">
+                      <ref role="29oIIx" node="28abrYJS4ih" resolve="x" />
                     </node>
                   </node>
                   <node concept="2keGvS" id="28abrYJS4qr" role="2keTEq">
