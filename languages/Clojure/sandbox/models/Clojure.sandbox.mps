@@ -710,7 +710,6 @@
   </node>
   <node concept="2nfODt" id="55eTs80anqa">
     <property role="TrG5h" value="pure_literals" />
-    <node concept="2Hmom$" id="55eTs80anqb" role="2keTEq" />
     <node concept="2HnWdf" id="55eTs80ao2k" role="2keTEq">
       <property role="2HnWde" value="This is TextGen" />
     </node>
@@ -783,7 +782,6 @@
         </node>
       </node>
     </node>
-    <node concept="2Hmom$" id="55eTs80axFj" role="2keTEq" />
   </node>
   <node concept="2nfODt" id="55eTs80aCiu">
     <property role="TrG5h" value="references" />
@@ -865,7 +863,6 @@
   </node>
   <node concept="1hvWqa" id="55eTs80eJ9v">
     <property role="TrG5h" value="repl" />
-    <node concept="2Hmom$" id="55eTs80eJ9w" role="2keTEq" />
     <node concept="1huYpt" id="55eTs80eJmv" role="1huYcy">
       <node concept="2Hn3F_" id="55eTs80eJmB" role="1huYcs">
         <property role="2Hn3F$" value="4" />
@@ -1451,9 +1448,6 @@
         <node concept="2keGvS" id="6rswArQR77q" role="2k1V0q" />
       </node>
     </node>
-    <node concept="1huYpt" id="6rswArQPaPN" role="1huYcy">
-      <node concept="2Hmom$" id="6rswArQPaPO" role="1huYcs" />
-    </node>
   </node>
   <node concept="1hvWqa" id="6rswArQRaX1">
     <property role="TrG5h" value="no2" />
@@ -1510,9 +1504,6 @@
         </node>
       </node>
     </node>
-    <node concept="1huYpt" id="6rswArQVL3T" role="1huYcy">
-      <node concept="2Hmom$" id="6rswArQVL3U" role="1huYcs" />
-    </node>
     <node concept="1huYpt" id="6rswArQVL8y" role="1huYcy">
       <node concept="2HnWdf" id="6rswArQVL9e" role="1huYcs">
         <property role="2HnWde" value="if a lambda is executed in a scope with a different binding" />
@@ -1555,9 +1546,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="1huYpt" id="6rswArR32vV" role="1huYcy">
-      <node concept="2Hmom$" id="6rswArR32vW" role="1huYcs" />
     </node>
     <node concept="1huYpt" id="6rswArR32wC" role="1huYcy">
       <node concept="2k1V6j" id="6rswArR32xz" role="1huYcs">
@@ -1645,9 +1633,6 @@
         </node>
       </node>
     </node>
-    <node concept="1huYpt" id="6rswArRdZWF" role="1huYcy">
-      <node concept="2Hmom$" id="6rswArRdZWG" role="1huYcs" />
-    </node>
     <node concept="1huYpt" id="6rswArRdZXV" role="1huYcy">
       <node concept="29owvI" id="6rswArRdZZn" role="1huYcs">
         <node concept="29rbYa" id="6rswArRdZZw" role="29owvP">
@@ -1660,9 +1645,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="1huYpt" id="6rswArRfe8_" role="1huYcy">
-      <node concept="2Hmom$" id="6rswArRfe8A" role="1huYcs" />
     </node>
     <node concept="1huYpt" id="6rswArRffmY" role="1huYcy">
       <node concept="2HnWdf" id="6rswArRffoD" role="1huYcs">
@@ -1705,9 +1687,6 @@
           </node>
         </node>
       </node>
-    </node>
-    <node concept="1huYpt" id="6rswArRhdqS" role="1huYcy">
-      <node concept="2Hmom$" id="6rswArRhdqT" role="1huYcs" />
     </node>
     <node concept="1huYpt" id="6rswArRiE5u" role="1huYcy">
       <node concept="29owvI" id="6rswArRiEgA" role="1huYcs">

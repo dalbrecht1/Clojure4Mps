@@ -30,7 +30,13 @@
       <concept id="2143337026886594131" name="Clojure.structure.Lambda" flags="ng" index="2keGvS">
         <child id="2143337026887314175" name="parameters" index="2kcsdk" />
       </concept>
-      <concept id="7954939722264746531" name="Clojure.structure.EmptyForm" flags="ng" index="2Hmom$" />
+      <concept id="7954939722265043092" name="Clojure.structure.List" flags="ng" index="2H9jWj" />
+      <concept id="7954939722265043089" name="Clojure.structure.Sequence" flags="ng" index="2H9jWm">
+        <child id="176469483612302484" name="elements" index="1Q6DUr" />
+      </concept>
+      <concept id="7954939722264463887" name="Clojure.structure.BooleanLiteral" flags="ng" index="2Hk_m8">
+        <property id="7954939722264463888" name="value" index="2Hk_mn" />
+      </concept>
       <concept id="7954939722264585570" name="Clojure.structure.NumericLiteral" flags="ng" index="2Hn3F_">
         <property id="7954939722264585571" name="value" index="2Hn3F$" />
       </concept>
@@ -39,6 +45,14 @@
       </concept>
       <concept id="5858872786645230408" name="Clojure.structure.Repl" flags="ng" index="1hvWqa">
         <child id="5858872786645485280" name="lines" index="1huYcy" />
+      </concept>
+      <concept id="1774337513744034975" name="Clojure.structure.TestCase" flags="ng" index="1UKPCe">
+        <property id="2185911838954188138" name="expectation" index="1LuCpm" />
+        <property id="2185911838954188134" name="error" index="1LuCpq" />
+        <child id="2185911838954188136" name="form" index="1LuCpk" />
+      </concept>
+      <concept id="1774337513744034974" name="Clojure.structure.Test" flags="ng" index="1UKPCf">
+        <child id="2185911838953718352" name="cases" index="1Lvq_G" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -78,9 +92,6 @@
         </node>
       </node>
     </node>
-    <node concept="1huYpt" id="6rswArQYCSZ" role="1huYcy">
-      <node concept="2Hmom$" id="6rswArQYCT0" role="1huYcs" />
-    </node>
     <node concept="1huYpt" id="6rswArQYCMh" role="1huYcy">
       <node concept="2k1V6j" id="6rswArQYCM$" role="1huYcs">
         <node concept="29owvI" id="6rswArQYCQt" role="2k1V0q">
@@ -112,6 +123,54 @@
         </node>
         <node concept="2Hn3F_" id="6rswArQYCRp" role="2k1V0o">
           <property role="2Hn3F$" value="10" />
+        </node>
+      </node>
+    </node>
+    <node concept="1huYpt" id="5pKcCe8Adzh" role="1huYcy">
+      <node concept="2k1V6j" id="5pKcCe8Ad$w" role="1huYcs">
+        <node concept="2j7eI6" id="5pKcCe8Ad$x" role="2k1V0q">
+          <property role="2j7ez7" value="3gy5KiBfF8R/plus" />
+        </node>
+        <node concept="2Hn3F_" id="5pKcCe8Ad$D" role="2k1V0o">
+          <property role="2Hn3F$" value="4" />
+        </node>
+        <node concept="2Hn3F_" id="5pKcCe8Ad$T" role="2k1V0o">
+          <property role="2Hn3F$" value="5" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1UKPCf" id="1TlUNLJbQPw">
+    <property role="TrG5h" value="quick" />
+    <node concept="1UKPCe" id="1TlUNLJdOMX" role="1Lvq_G">
+      <property role="1LuCpm" value="4" />
+      <node concept="2Hn3F_" id="1TlUNLJek1K" role="1LuCpk">
+        <property role="2Hn3F$" value="4" />
+      </node>
+    </node>
+    <node concept="1UKPCe" id="1TlUNLJek1M" role="1Lvq_G">
+      <property role="1LuCpm" value="'(3 4 5)" />
+      <node concept="2H9jWj" id="1TlUNLJgego" role="1LuCpk">
+        <node concept="2Hn3F_" id="1TlUNLJgegv" role="1Q6DUr">
+          <property role="2Hn3F$" value="3" />
+        </node>
+        <node concept="2Hn3F_" id="1TlUNLJgegC" role="1Q6DUr">
+          <property role="2Hn3F$" value="4" />
+        </node>
+        <node concept="2Hn3F_" id="1TlUNLJgegN" role="1Q6DUr">
+          <property role="2Hn3F$" value="5" />
+        </node>
+      </node>
+    </node>
+    <node concept="1UKPCe" id="1TlUNLJhxuE" role="1Lvq_G">
+      <property role="1LuCpm" value="operand must be NumericLiteral" />
+      <property role="1LuCpq" value="true" />
+      <node concept="2k1V6j" id="1TlUNLJhxvh" role="1LuCpk">
+        <node concept="2j7eI6" id="1TlUNLJhxvi" role="2k1V0q">
+          <property role="2j7ez7" value="3gy5KiBfFlU/times" />
+        </node>
+        <node concept="2Hk_m8" id="1TlUNLJhxvv" role="2k1V0o">
+          <property role="2Hk_mn" value="true" />
         </node>
       </node>
     </node>
