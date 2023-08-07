@@ -233,7 +233,9 @@
       </concept>
     </language>
     <language id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc">
-      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA" />
+      <concept id="5858074156537516430" name="jetbrains.mps.baseLanguage.javadoc.structure.ReturnBlockDocTag" flags="ng" index="x79VA">
+        <property id="5858074156537516431" name="text" index="x79VB" />
+      </concept>
       <concept id="6832197706140518104" name="jetbrains.mps.baseLanguage.javadoc.structure.DocMethodParameterReference" flags="ng" index="zr_55" />
       <concept id="6832197706140518103" name="jetbrains.mps.baseLanguage.javadoc.structure.BaseParameterReference" flags="ng" index="zr_5a">
         <reference id="6832197706140518108" name="param" index="zr_51" />
@@ -244,6 +246,7 @@
       </concept>
       <concept id="5349172909345532724" name="jetbrains.mps.baseLanguage.javadoc.structure.MethodDocComment" flags="ng" index="P$JXv" />
       <concept id="8465538089690881930" name="jetbrains.mps.baseLanguage.javadoc.structure.ParameterBlockDocTag" flags="ng" index="TUZQ0">
+        <property id="8465538089690881934" name="text" index="TUZQ4" />
         <child id="6832197706140518123" name="parameter" index="zr_5Q" />
       </concept>
       <concept id="8465538089690331500" name="jetbrains.mps.baseLanguage.javadoc.structure.CommentLine" flags="ng" index="TZ5HA">
@@ -1217,6 +1220,16 @@
         </node>
       </node>
       <node concept="3clFbS" id="1QYEqI9x9Kv" role="3clF47" />
+      <node concept="P$JXv" id="3nLXT1CgI1V" role="lGtFl">
+        <node concept="TZ5HA" id="3nLXT1CgI1W" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgI1X" role="1dT_Ay">
+            <property role="1dT_AB" value="Returns the available ReferenceTargets in the given ReferenceScope." />
+          </node>
+        </node>
+        <node concept="x79VA" id="3nLXT1CgI1Y" role="3nqlJM">
+          <property role="x79VB" value="all targets some form from within this scope might reference." />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="13h7C7" id="1QYEqI9yEBQ">
@@ -1618,6 +1631,27 @@
           <ref role="ehGHo" to="909g:149Ef26dPwA" resolve="Form" />
         </node>
       </node>
+      <node concept="P$JXv" id="3nLXT1Cgwkb" role="lGtFl">
+        <node concept="TZ5HA" id="3nLXT1Cgwkc" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1Cgwkd" role="1dT_Ay">
+            <property role="1dT_AB" value="Checks if two forms are semantically equals to each other. This is mainly used (at the moment) to evaluate sets." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3nLXT1Cgwrt" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1Cgwru" role="1dT_Ay">
+            <property role="1dT_AB" value="A form may decide to only give a conservative estimation of the equality if calculation of a precise result is impossible or infeasible." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3nLXT1Cgwke" role="3nqlJM">
+          <property role="TUZQ4" value="the other form to compare to" />
+          <node concept="zr_55" id="3nLXT1Cgwkg" role="zr_5Q">
+            <ref role="zr_51" node="55eTs80hLHf" resolve="other" />
+          </node>
+        </node>
+        <node concept="x79VA" id="3nLXT1Cgwkh" role="3nqlJM">
+          <property role="x79VB" value="whether both forms represent the same value" />
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="55eTs80cibx" role="13h7CS">
       <property role="13i0it" value="true" />
@@ -1646,25 +1680,63 @@
       <node concept="P$JXv" id="6rswArRedho" role="lGtFl">
         <node concept="TZ5HA" id="6rswArRedhp" role="TZ5H$">
           <node concept="1dT_AC" id="6rswArRedhq" role="1dT_Ay">
-            <property role="1dT_AB" value="Idea to future me:" />
+            <property role="1dT_AB" value="Evaluates the given form as far as possible at this time. The result should always return itself if asked for further evaluation." />
           </node>
         </node>
-        <node concept="TZ5HA" id="6rswArRedif" role="TZ5H$">
-          <node concept="1dT_AC" id="6rswArRedig" role="1dT_Ay">
-            <property role="1dT_AB" value="You could use a map that uses reference targets as keys..." />
+        <node concept="TZ5HA" id="3nLXT1CgwFc" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgwFd" role="1dT_Ay">
+            <property role="1dT_AB" value="" />
           </node>
         </node>
-        <node concept="TZ5HA" id="6rswArRediT" role="TZ5H$">
-          <node concept="1dT_AC" id="6rswArRediU" role="1dT_Ay">
-            <property role="1dT_AB" value="Because then you don't have to figure out all the scoping once again." />
+        <node concept="TZ5HA" id="3nLXT1CgIfZ" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgIg0" role="1dT_Ay">
+            <property role="1dT_AB" value="There are several ways to design the bindings parameter. I somewhat consciously decided to use strings as the keys here." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3nLXT1CgIgL" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgIgM" role="1dT_Ay">
+            <property role="1dT_AB" value="This means that I more or less have to manually keep track of what reference points to which target." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3nLXT1CgIh_" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgIhA" role="1dT_Ay">
+            <property role="1dT_AB" value="Alternatively, you could have used the ReferenceTarget as the key, but given that my evaluation relies on node copies," />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3nLXT1CgIir" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgIis" role="1dT_Ay">
+            <property role="1dT_AB" value="the reference links of the copy might point to the targets of the origin instead of the copy of the target," />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3nLXT1CgIjj" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgIjk" role="1dT_Ay">
+            <property role="1dT_AB" value="if both reference and target were inside the copied portion. Hence, doing lexicographical scoping isn't easier, just different." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3nLXT1CgIkd" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgIke" role="1dT_Ay">
+            <property role="1dT_AB" value="Another alternative would have been to convert the form completely into some other language (e.g. BaseLanguage) and rely on external evaluation." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3nLXT1CgIl9" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgIla" role="1dT_Ay">
+            <property role="1dT_AB" value="But there is no proper Generator yet for any target language, so evaluating the Clojure from the TextGen currently would be the only option." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3nLXT1CgIm7" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgIm8" role="1dT_Ay">
+            <property role="1dT_AB" value="But that also relies on an available Clojure runtime on the machine." />
           </node>
         </node>
         <node concept="TUZQ0" id="6rswArRedhr" role="3nqlJM">
+          <property role="TUZQ4" value="the binding information valid at the time of evaluation" />
           <node concept="zr_55" id="6rswArRedht" role="zr_5Q">
             <ref role="zr_51" node="4W3vIC7bvVH" resolve="bindings" />
           </node>
         </node>
-        <node concept="x79VA" id="6rswArRedhu" role="3nqlJM" />
+        <node concept="x79VA" id="6rswArRedhu" role="3nqlJM">
+          <property role="x79VB" value="an evaluated (copy) of the node using the given bindings" />
+        </node>
       </node>
     </node>
     <node concept="13i0hz" id="6rswArQRbcy" role="13h7CS">
@@ -1691,6 +1763,27 @@
           </node>
         </node>
       </node>
+      <node concept="P$JXv" id="3nLXT1Cgwdl" role="lGtFl">
+        <node concept="TZ5HA" id="3nLXT1Cgwdm" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1Cgwdn" role="1dT_Ay">
+            <property role="1dT_AB" value="Whenever the evaluation of a form encounters an expression that will not be evaluated right away (like the body of lambda expressions)," />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3nLXT1Cgwh7" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1Cgwh8" role="1dT_Ay">
+            <property role="1dT_AB" value="this method is called to make sure that references to variables that are in scope will be captured for when the actual valuation is done." />
+          </node>
+        </node>
+        <node concept="TUZQ0" id="3nLXT1Cgwdo" role="3nqlJM">
+          <property role="TUZQ4" value="the context information valid at the time of resolving" />
+          <node concept="zr_55" id="3nLXT1Cgwdq" role="zr_5Q">
+            <ref role="zr_51" node="6rswArQRbjQ" resolve="context" />
+          </node>
+        </node>
+        <node concept="x79VA" id="3nLXT1Cgwdr" role="3nqlJM">
+          <property role="x79VB" value="a resolved version (copy) of the node that uses the given context" />
+        </node>
+      </node>
     </node>
     <node concept="13i0hz" id="55eTs80fd7r" role="13h7CS">
       <property role="13i0it" value="true" />
@@ -1703,6 +1796,21 @@
             <node concept="13iPFW" id="55eTs80fd8J" role="2Oq$k0" />
             <node concept="2Iv5rx" id="55eTs80fdlw" role="2OqNvi" />
           </node>
+        </node>
+      </node>
+      <node concept="P$JXv" id="3nLXT1CgwhL" role="lGtFl">
+        <node concept="TZ5HA" id="3nLXT1CgwhM" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgwhN" role="1dT_Ay">
+            <property role="1dT_AB" value="Converts the form into a human-readable representation of its value for use in a Repl." />
+          </node>
+        </node>
+        <node concept="TZ5HA" id="3nLXT1CgwjD" role="TZ5H$">
+          <node concept="1dT_AC" id="3nLXT1CgwjE" role="1dT_Ay">
+            <property role="1dT_AB" value="A form may decide to only give an approximation of its value if calculation of a precise value is impossible or infeasible." />
+          </node>
+        </node>
+        <node concept="x79VA" id="3nLXT1CgwhO" role="3nqlJM">
+          <property role="x79VB" value="a string representation of the given form" />
         </node>
       </node>
     </node>
