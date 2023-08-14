@@ -27,7 +27,9 @@
         <child id="414384289274416996" name="parts" index="3ft7WO" />
       </concept>
       <concept id="2000375450116423800" name="jetbrains.mps.lang.editor.structure.SubstituteMenu" flags="ng" index="22mcaB" />
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
+        <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
+      </concept>
       <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <property id="1140524450557" name="separatorText" index="2czwfO" />
@@ -62,6 +64,9 @@
         <child id="8371900013785948365" name="parameterQuery" index="2$S_pT" />
       </concept>
       <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
+      <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
+        <reference id="1078939183255" name="editorComponent" index="PMmxG" />
+      </concept>
       <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
         <child id="1186402402630" name="styles" index="V601i" />
       </concept>
@@ -1679,7 +1684,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="5kmzEbnDP4j" role="3EZMnx">
-        <ref role="1NtTu8" to="909g:55eTs80dgru" resolve="form" />
+        <ref role="1NtTu8" to="909g:4C0H_WOzXSf" resolve="form" />
       </node>
       <node concept="1HlG4h" id="55eTs80dgLk" role="3EZMnx">
         <node concept="1HfYo3" id="55eTs80dgLm" role="1HlULh">
@@ -1720,7 +1725,7 @@
                         <node concept="2OqwBi" id="55eTs80dh2y" role="2Oq$k0">
                           <node concept="pncrf" id="4W3vIC7bu62" role="2Oq$k0" />
                           <node concept="3TrEf2" id="55eTs80dhjB" role="2OqNvi">
-                            <ref role="3Tt5mk" to="909g:55eTs80dgru" resolve="form" />
+                            <ref role="3Tt5mk" to="909g:4C0H_WOzXSf" resolve="form" />
                           </node>
                         </node>
                         <node concept="2qgKlT" id="55eTs80dhUL" role="2OqNvi">
@@ -1747,6 +1752,9 @@
         </node>
       </node>
       <node concept="2iRfu4" id="55eTs80dgLa" role="2iSdaV" />
+    </node>
+    <node concept="PMmxH" id="4C0H_WOHX5x" role="6VMZX">
+      <ref role="PMmxG" node="4C0H_WOHVDb" resolve="EvaluableInspector" />
     </node>
   </node>
   <node concept="24kQdi" id="6rswArRgIrM">
@@ -1816,7 +1824,7 @@
     <node concept="3EZMnI" id="1TlUNLJbRQy" role="2wV5jI">
       <node concept="2iRfu4" id="1TlUNLJbRQ_" role="2iSdaV" />
       <node concept="3F1sOY" id="1TlUNLJcyDG" role="3EZMnx">
-        <ref role="1NtTu8" to="909g:1TlUNLJbQPC" resolve="form" />
+        <ref role="1NtTu8" to="909g:4C0H_WOzXSf" resolve="form" />
       </node>
       <node concept="2yq9I_" id="1TlUNLJfgOx" role="3EZMnx">
         <ref role="225u1j" to="909g:1TlUNLJbQPA" resolve="error" />
@@ -1926,7 +1934,7 @@
                         <node concept="2OqwBi" id="1TlUNLJgeyg" role="2Oq$k0">
                           <node concept="pncrf" id="1TlUNLJgelP" role="2Oq$k0" />
                           <node concept="3TrEf2" id="1TlUNLJgeLG" role="2OqNvi">
-                            <ref role="3Tt5mk" to="909g:1TlUNLJbQPC" resolve="form" />
+                            <ref role="3Tt5mk" to="909g:4C0H_WOzXSf" resolve="form" />
                           </node>
                         </node>
                         <node concept="2qgKlT" id="1TlUNLJgfxi" role="2OqNvi">
@@ -2045,6 +2053,23 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="PMmxH" id="4C0H_WOHXZD" role="6VMZX">
+      <ref role="PMmxG" node="4C0H_WOHVDb" resolve="EvaluableInspector" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="4C0H_WOHVDb">
+    <property role="3GE5qa" value="roots" />
+    <property role="TrG5h" value="EvaluableInspector" />
+    <ref role="1XX52x" to="909g:4C0H_WOzXQw" resolve="Evaluable" />
+    <node concept="3EZMnI" id="4C0H_WOHVZ2" role="2wV5jI">
+      <node concept="3F0ifn" id="4C0H_WOHVZc" role="3EZMnx">
+        <property role="3F0ifm" value="operation limit:" />
+      </node>
+      <node concept="3F0A7n" id="4C0H_WOHVZi" role="3EZMnx">
+        <ref role="1NtTu8" to="909g:4C0H_WOzXQx" resolve="operationLimit" />
+      </node>
+      <node concept="2iRfu4" id="4C0H_WOHVZ5" role="2iSdaV" />
     </node>
   </node>
 </model>

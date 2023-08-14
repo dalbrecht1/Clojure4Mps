@@ -40,19 +40,20 @@
       <concept id="7954939722264585570" name="Clojure.structure.NumericLiteral" flags="ng" index="2Hn3F_">
         <property id="7954939722264585571" name="value" index="2Hn3F$" />
       </concept>
-      <concept id="5858872786645484447" name="Clojure.structure.ReplLine" flags="ng" index="1huYpt">
-        <child id="5858872786645485278" name="form" index="1huYcs" />
-      </concept>
+      <concept id="5858872786645484447" name="Clojure.structure.ReplLine" flags="ng" index="1huYpt" />
       <concept id="5858872786645230408" name="Clojure.structure.Repl" flags="ng" index="1hvWqa">
         <child id="5858872786645485280" name="lines" index="1huYcy" />
       </concept>
       <concept id="1774337513744034975" name="Clojure.structure.TestCase" flags="ng" index="1UKPCe">
         <property id="2185911838954188138" name="expectation" index="1LuCpm" />
         <property id="2185911838954188134" name="error" index="1LuCpq" />
-        <child id="2185911838954188136" name="form" index="1LuCpk" />
       </concept>
       <concept id="1774337513744034974" name="Clojure.structure.Test" flags="ng" index="1UKPCf">
         <child id="2185911838953718352" name="cases" index="1Lvq_G" />
+      </concept>
+      <concept id="5332462478826659232" name="Clojure.structure.Evaluable" flags="ng" index="1YzQJZ">
+        <property id="5332462478826659233" name="operationLimit" index="1YzQJY" />
+        <child id="5332462478826659343" name="form" index="1YzQxg" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -64,7 +65,8 @@
   <node concept="1hvWqa" id="6rswArQYbPV">
     <property role="TrG5h" value="circleArea" />
     <node concept="1huYpt" id="6rswArQYCMS" role="1huYcy">
-      <node concept="29owvI" id="6rswArQYCMT" role="1huYcs">
+      <property role="1YzQJY" value="100" />
+      <node concept="29owvI" id="6rswArQYCMT" role="1YzQxg">
         <node concept="29rbYa" id="6rswArQYCMU" role="29owvP">
           <property role="TrG5h" value="PI" />
           <node concept="2Hn3F_" id="6rswArQYCMV" role="29rdnB">
@@ -93,7 +95,8 @@
       </node>
     </node>
     <node concept="1huYpt" id="6rswArQYCMh" role="1huYcy">
-      <node concept="2k1V6j" id="6rswArQYCM$" role="1huYcs">
+      <property role="1YzQJY" value="100" />
+      <node concept="2k1V6j" id="6rswArQYCM$" role="1YzQxg">
         <node concept="29owvI" id="6rswArQYCQt" role="2k1V0q">
           <node concept="29rbYa" id="6rswArQYCQu" role="29owvP">
             <property role="TrG5h" value="PI" />
@@ -127,7 +130,8 @@
       </node>
     </node>
     <node concept="1huYpt" id="5pKcCe8Adzh" role="1huYcy">
-      <node concept="2k1V6j" id="5pKcCe8Ad$w" role="1huYcs">
+      <property role="1YzQJY" value="100" />
+      <node concept="2k1V6j" id="5pKcCe8Ad$w" role="1YzQxg">
         <node concept="2j7eI6" id="5pKcCe8Ad$x" role="2k1V0q">
           <property role="2j7ez7" value="3gy5KiBfF8R/plus" />
         </node>
@@ -144,13 +148,15 @@
     <property role="TrG5h" value="quick" />
     <node concept="1UKPCe" id="1TlUNLJdOMX" role="1Lvq_G">
       <property role="1LuCpm" value="4" />
-      <node concept="2Hn3F_" id="1TlUNLJek1K" role="1LuCpk">
+      <property role="1YzQJY" value="100" />
+      <node concept="2Hn3F_" id="1TlUNLJek1K" role="1YzQxg">
         <property role="2Hn3F$" value="4" />
       </node>
     </node>
     <node concept="1UKPCe" id="1TlUNLJek1M" role="1Lvq_G">
       <property role="1LuCpm" value="'(3 4 5)" />
-      <node concept="2H9jWj" id="1TlUNLJgego" role="1LuCpk">
+      <property role="1YzQJY" value="100" />
+      <node concept="2H9jWj" id="1TlUNLJgego" role="1YzQxg">
         <node concept="2Hn3F_" id="1TlUNLJgegv" role="1Q6DUr">
           <property role="2Hn3F$" value="3" />
         </node>
@@ -165,7 +171,8 @@
     <node concept="1UKPCe" id="1TlUNLJhxuE" role="1Lvq_G">
       <property role="1LuCpm" value="operand must be NumericLiteral" />
       <property role="1LuCpq" value="true" />
-      <node concept="2k1V6j" id="1TlUNLJhxvh" role="1LuCpk">
+      <property role="1YzQJY" value="100" />
+      <node concept="2k1V6j" id="1TlUNLJhxvh" role="1YzQxg">
         <node concept="2j7eI6" id="1TlUNLJhxvi" role="2k1V0q">
           <property role="2j7ez7" value="3gy5KiBfFlU/times" />
         </node>
