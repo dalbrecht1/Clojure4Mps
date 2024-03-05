@@ -63,7 +63,7 @@
     </language>
   </registry>
   <node concept="1hvWqa" id="6rswArQYbPV">
-    <property role="TrG5h" value="circleArea" />
+    <property role="TrG5h" value="circleArea\n" />
     <node concept="1huYpt" id="6rswArQYCMS" role="1huYcy">
       <property role="1YzQJY" value="100" />
       <node concept="29owvI" id="6rswArQYCMT" role="1YzQxg">
